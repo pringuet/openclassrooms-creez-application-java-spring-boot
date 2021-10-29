@@ -1,1 +1,1 @@
-Formation Spring Boot Openclassrooms, par Romain Sessa
+Créez une application Java avec Spring Boot, par Romain Sessa
