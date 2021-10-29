@@ -5,8 +5,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.openclassrooms.helloworld.model.BusinessService;
 import com.openclassrooms.helloworld.model.HelloWorld;
+import com.openclassrooms.helloworld.service.BusinessService;
 
 @SpringBootApplication
 public class HelloworldApplication implements CommandLineRunner {
