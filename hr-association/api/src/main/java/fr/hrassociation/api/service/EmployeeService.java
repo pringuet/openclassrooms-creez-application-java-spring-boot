@@ -19,16 +19,16 @@ public class EmployeeService {
 	public Optional<Employee> getEmployee(final Long id) {
 		return employeeRepository.findById(id);
 	}
-	
+
 	public Iterable<Employee> getEmployees() {
 		return employeeRepository.findAll();
 	}
-	
+
 	public void deleteEmployee(final Long id) {
 		employeeRepository.deleteById(id);
 	}
-	
+
 	public Employee saveEmployee(final Employee employee) {
 		return employeeRepository.save(employee);
 	}
-}	
+}
